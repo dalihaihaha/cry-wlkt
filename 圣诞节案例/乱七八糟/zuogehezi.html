@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>利用类选择器画盒子</title>
+    <style>
+        /* 这个很重要啊 要有个长宽才画的出盒子呀 */
+      .box {
+        width: 30px;
+        height: 64px;
+      }
+      .green {
+        background-color: rgb(138, 213, 138);
+      }
+      .purple {
+        background-color: rgb(195, 85, 195);
+      }
+      .love {
+        color: pink;
+        font-size: 21px;
+      }
+    </style>
+</head>
+<body>
+    <div class="box green"></div>
+    <div class="box purple love">3064999</div>
+    <div class="box green"></div>
+</body>
+</html>
